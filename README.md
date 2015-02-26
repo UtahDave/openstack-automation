@@ -1,6 +1,6 @@
 About the project
 =================
-The [project](https://github.com/Akilesh1597/salt-openstack/ "Openstack-Automation") gives you a working OpenStack cluster in a mater of minutes. We do this using [saltstack](http://docs.saltstack.com/ "Saltstack"). There is almost no coding involved and it can be easily maintained. Above all it is as easy as talking to your servers and asking them to configure themselves. 
+The [project](https://github.com/Akilesh1597/salt-openstack/ "Openstack-Automation") gives you a working OpenStack cluster in a matter of minutes. We do this using [saltstack](http://docs.saltstack.com/ "Saltstack"). There is almost no coding involved and it can be easily maintained. Above all it is as easy as talking to your servers and asking them to configure themselves. 
 
 Saltstack provides us an infrastructure management framework that makes our job easier. Saltstack supports most of tasks that you would want to perform while installing OpenStack and more. 
 
@@ -269,7 +269,7 @@ Most users trying OpenStack for first time would need OpenStack up and running o
 
 This will connect all bridges to a bridge named 'br-proxy'. Later you have to manually add your primary nic to this bridge and configure the bridge with the ip address of your primary nic. 
 
-We have not automated the last part because you may loose connectivity to your minion at this phase and it is best you do it manually. Further setting up the briges in your 'interfaces configuration' file varies per distro. 
+We have not automated the last part because you may lose connectivity to your minion at this phase and it is best you do it manually. Further setting up the briges in your 'interfaces configuration' file varies per distro. 
 
 User would have to bear with us, untill we find formula for the same. 
 
